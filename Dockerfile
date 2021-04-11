@@ -21,7 +21,7 @@ RUN apt update && apt install -y \
   python3-pil git
 
 # Optional dev tools
-#RUN apt instll -y wget curl jq make vim
+#RUN apt install -y wget curl jq make vim
 
 # Install the python GPIO library for Jetson
 RUN pip3 install Jetson.GPIO
